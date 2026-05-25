@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "MilkMaatu Backend Running"}
+    return {"message": "MilkMaatu Backend Running successfully!"}
